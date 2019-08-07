@@ -49,4 +49,5 @@ class BlogController extends Controller
         ->paginate(5);
         return view('blog.index',['data' =>$data,'search'=>$search]);
     }
+    //add index - ALTER table tablename FULLTEXT(column1,column2)
 }
