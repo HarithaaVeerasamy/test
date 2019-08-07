@@ -54,6 +54,7 @@
                                 </li>
                             @endif
                         @else
+                        <a class="nav-link" href="/ajaxblog">{{ __('AjaxBlog') }}</a>
                         <a class="nav-link" href="/blog">{{ __('Blog') }}</a>
                         <a class="nav-link" href="/display">{{ __('Product Display') }}</a>
                             <li class="nav-item dropdown">

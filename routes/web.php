@@ -30,3 +30,5 @@ Route::get('/blog','BlogController@index')->name('blog');
 Route::get('/addblog','BlogController@add');
 Route::post('/createblog','BlogController@create');
 Route::post('/search','BlogController@search');
+Route::get('/ajaxblog','AjaxBlogController@index');
+Route::post('/searchajax','AjaxBlogController@search');
